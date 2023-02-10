@@ -12,6 +12,7 @@ dimensions: {
     "021_bleach_cleanser": [10.267730712890625,26.625339508056641,7.5134143829345703],
     "071_nine_hole_peg_test": [12.6,3.9,12.6],
     '008_pudding_box':[49.47199821472168, 29.923000335693359, 83.498001098632812],
+    'pallet':[120.0,79.6,14.1],
 }
 
 class_ids: {
@@ -24,6 +25,7 @@ class_ids: {
     "021_bleach_cleanser":  7,
     "071_nine_hole_peg_test": 8,
     '008_pudding_box': 10,
+    'pallet': 11,
 }
 
 draw_colors: {
@@ -36,6 +38,7 @@ draw_colors: {
     "021_bleach_cleanser": [232, 222, 12],  # yellow
     "071_nine_hole_peg_test": [232, 222, 12],  # yellow
     "008_pudding_box": [255,0,0],
+    "pallet": [0x76,0xb9,0x00],
 }
 
 # Config params for DOPE
