@@ -1,4 +1,4 @@
-torch 
+torch==2.0.1
 torchvision
 tensorboardX
 boto3
@@ -12,7 +12,7 @@ imageio
 jmespath
 joblib
 networkx
-numpy
+numpy==1.23.2
 opencv-python-headless
 packaging
 Pillow
