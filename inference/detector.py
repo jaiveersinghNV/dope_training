@@ -555,6 +555,12 @@ class ObjectDetector(object):
         for obj in objects:
             # Run PNP
             points = obj[1] + [(obj[0][0] * scale_factor, obj[0][1] * scale_factor)]
+            if None in points:
+                print("Incomplete cuboid detection.")
+                print("  result from detection:", points)
+                print("Skipping")
+                continue
+
             cuboid2d = np.copy(points)
             location, quaternion, projected_points = pnp_solver.solve_pnp(points)
 
