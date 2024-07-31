@@ -45,4 +45,4 @@ draw_colors: {
 thresh_angle: 0.5
 thresh_map: 0.01
 sigma: 3
-thresh_points: 0.0
+thresh_points: 0.1
